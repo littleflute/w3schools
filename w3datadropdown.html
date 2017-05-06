@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<script src="lib/w3data.js"></script>
+<body>
+v0.0.1<br>
+<select id="id01">
+<option w3-repeat="x in cars">{{x}}</option>
+</select>
+
+<script>
+w3DisplayData("id01", {"cars" : ["Volvo", "Ford", "BMW", "Mercedes"]});
+</script>
+
+</body>
+</html> 
